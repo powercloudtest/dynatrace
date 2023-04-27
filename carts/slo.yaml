@@ -30,6 +30,18 @@ objectives:
             - <20000000.000000
       weight: 1
       key_sli: false
+    - sli: graph_requests_executed_in_background_threads_of_springboot_carts_works_weave_socks_cart_cartapplication_sockshop
+      displayName: Graph (Requests executed in background threads of SpringBoot carts works.weave.socks.cart.CartApplication sockshop)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <16000000.000000
+      warning:
+        - criteria:
+            - '>=0.000000'
+            - <20000000.000000
+      weight: 1
+      key_sli: false
 total_score:
     pass: 90%
     warning: 75%
